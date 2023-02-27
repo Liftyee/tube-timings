@@ -11,7 +11,7 @@ List of times between tube stations, in a machine readable format, based on the 
     - If one route skips stops (Metropolitan and Jubilee lines between Wembley Park and Baker Street), both routes have been included
 
 ### Format of the dataset
-All timings are given in decimal minutes, to 2 decimal places. Timings are given for both directions between station pairs (they do differ sometimes).
+All timings are given in decimal minutes, to 2 decimal places, or exact values. Timings are given for both directions between station pairs (they do differ sometimes).
 
 The dataset is provided in two forms. `data.txt` contains TfL station IDs, while `data_text.txt` contains English shorthand identifier - these identifiers are **not** consistent within the file, and do contain spelling errors.
 
